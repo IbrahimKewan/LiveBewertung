@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Bewertungssystem</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Live Bewertungssystem</h1>
+
+    <!-- Eingabe für neuen Benutzer -->
+    <div>
+        <input type="text" id="nameInput" placeholder="Name eingeben">
+        <button onclick="addUser()">Benutzer hinzufügen</button>
+    </div>
+
+    <!-- Benutzerliste -->
+    <div id="userContainer"></div>
+
+    <!-- Durchschnittsanzeige -->
+    <h2 id="averageDisplay">Durchschnitt: 0</h2>
+</body>
+</html>

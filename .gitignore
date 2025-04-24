@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Environment secrets
+.env
+
+# Build output
+dist/
+build/
+
+# Dependency files
+package-lock.json
+README_git.md
+Coursera.code-workspace
+
+*.pdf
+/fontawesome/
