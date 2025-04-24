@@ -1,5 +1,5 @@
 // Verbindung zum Server herstellen
-const socket = io('https://c892-109-73-134-180.ngrok-free.app'); // ngrok-URL verwenden
+const socket = io('https://livewertung.onrender.com'); // ngrok-URL verwenden
 
 // Globale Variablen
 let users = []; // Liste der Benutzer
