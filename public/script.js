@@ -5,7 +5,7 @@ const socket = io('https://livewertung.onrender.com'); // ngrok-URL verwenden
 let users = []; // Liste der Benutzer
 
 // ===================================
-// Benutzer hinzufügen
+// Benutzer hinzufügen dd
 // ===================================
 function addUser() {
     const nameInput = document.getElementById('nameInput');
