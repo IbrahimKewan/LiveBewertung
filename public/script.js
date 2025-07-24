@@ -1,5 +1,5 @@
 // Verbindung zum Server herstellen
-const socket = io("https://livebwertung.onrender.com");
+const socket = io("https://livebewertung.onrender.com");
 
 // Globale Variablen
 let users = []; // Liste der Benutzer
